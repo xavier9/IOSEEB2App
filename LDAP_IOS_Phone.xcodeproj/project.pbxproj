@@ -7,16 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C394F4F61CAA9FC00000D6BC /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C394F4F31CAA9FBF0000D6BC /* libcrypto.a */; };
+		C394F4F71CAA9FC00000D6BC /* libsasl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C394F4F41CAA9FBF0000D6BC /* libsasl2.a */; };
+		C394F4F81CAA9FC00000D6BC /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C394F4F51CAA9FBF0000D6BC /* libssl.a */; };
+		C3AA4D191CB534FC00FA081F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA4D181CB534FC00FA081F /* User.swift */; };
+		C3AA4D1B1CB540DD00FA081F /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA4D1A1CB540DD00FA081F /* MessageController.swift */; };
+		C3AA4D1D1CB540F400FA081F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA4D1C1CB540F400FA081F /* Message.swift */; };
+		C3AA4D221CB6556F00FA081F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AA4D201CB6556F00FA081F /* Main.storyboard */; };
+		C3BCC85C1CABA38F00CA7953 /* liblber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCC85B1CABA38F00CA7953 /* liblber.a */; };
+		C3BCC85E1CABA39500CA7953 /* libldap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCC85D1CABA39500CA7953 /* libldap.a */; };
+		C3BCC8601CABA39D00CA7953 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCC85F1CABA39D00CA7953 /* UIKit.framework */; };
+		C3BCC8621CABA3A200CA7953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCC8611CABA3A100CA7953 /* Foundation.framework */; };
+		C3BCC8641CABA3A500CA7953 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCC8631CABA3A500CA7953 /* CoreGraphics.framework */; };
+		C3BCC8AB1CABABAD00CA7953 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCC8AA1CABABAD00CA7953 /* libresolv.tbd */; };
+		C3BCCC991CAD2BCE00CA7953 /* libiLdapKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3BCCC861CAD2A6C00CA7953 /* libiLdapKit.a */; };
 		C3E38DFA1CAA512900F0B4F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E38DF91CAA512900F0B4F9 /* AppDelegate.swift */; };
 		C3E38DFC1CAA512900F0B4F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E38DFB1CAA512900F0B4F9 /* ViewController.swift */; };
-		C3E38DFF1CAA512900F0B4F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E38DFD1CAA512900F0B4F9 /* Main.storyboard */; };
 		C3E38E011CAA512900F0B4F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E38E001CAA512900F0B4F9 /* Assets.xcassets */; };
 		C3E38E041CAA512900F0B4F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E38E021CAA512900F0B4F9 /* LaunchScreen.storyboard */; };
 		C3E38E0F1CAA512900F0B4F9 /* LDAP_IOS_PhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E38E0E1CAA512900F0B4F9 /* LDAP_IOS_PhoneTests.swift */; };
 		C3E38E1A1CAA512900F0B4F9 /* LDAP_IOS_PhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E38E191CAA512900F0B4F9 /* LDAP_IOS_PhoneUITests.swift */; };
+		C3E38E9A1CAA586600F0B4F9 /* LDAP_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E38E981CAA586600F0B4F9 /* LDAP_Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C3BCCC851CAD2A6C00CA7953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BCCC7E1CAD2A6C00CA7953 /* LdapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0CFA80E1587829400EBEB32;
+			remoteInfo = iLdapKit;
+		};
+		C3BCCC871CAD2A6C00CA7953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BCCC7E1CAD2A6C00CA7953 /* LdapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0103E111587874800183DC9;
+			remoteInfo = LdapKit;
+		};
+		C3BCCC971CAD2BC300CA7953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3BCCC7E1CAD2A6C00CA7953 /* LdapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A0CFA80D1587829400EBEB32;
+			remoteInfo = iLdapKit;
+		};
 		C3E38E0B1CAA512900F0B4F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C3E38DEE1CAA512900F0B4F9 /* Project object */;
@@ -34,10 +69,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C394F4F31CAA9FBF0000D6BC /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../iOSPorts-master/ports/security/openssl/build/Debug-iphoneos/libcrypto.a"; sourceTree = "<group>"; };
+		C394F4F41CAA9FBF0000D6BC /* libsasl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsasl2.a; path = "../iOSPorts-master/ports/security/cyrus-sasl/build/Debug-iphoneos/libsasl2.a"; sourceTree = "<group>"; };
+		C394F4F51CAA9FBF0000D6BC /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../iOSPorts-master/ports/security/openssl/build/Debug-iphoneos/libssl.a"; sourceTree = "<group>"; };
+		C3AA4D181CB534FC00FA081F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C3AA4D1A1CB540DD00FA081F /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		C3AA4D1C1CB540F400FA081F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C3AA4D211CB6556F00FA081F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3BCC85B1CABA38F00CA7953 /* liblber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblber.a; path = "../../../iOSPorts/ports/database/openldap/build/Release-iphoneos/liblber.a"; sourceTree = "<group>"; };
+		C3BCC85D1CABA39500CA7953 /* libldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libldap.a; path = "../../../iOSPorts/ports/database/openldap/build/Release-iphoneos/libldap.a"; sourceTree = "<group>"; };
+		C3BCC85F1CABA39D00CA7953 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3BCC8611CABA3A100CA7953 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3BCC8631CABA3A500CA7953 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3BCC8AA1CABABAD00CA7953 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C3BCCC7E1CAD2A6C00CA7953 /* LdapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LdapKit.xcodeproj; path = ../LdapKit/LdapKit.xcodeproj; sourceTree = "<group>"; };
 		C3E38DF61CAA512900F0B4F9 /* LDAP_IOS_Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDAP_IOS_Phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E38DF91CAA512900F0B4F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E38DFB1CAA512900F0B4F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3E38DFE1CAA512900F0B4F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E38E001CAA512900F0B4F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E38E031CAA512900F0B4F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E38E051CAA512900F0B4F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +95,9 @@
 		C3E38E151CAA512900F0B4F9 /* LDAP_IOS_PhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDAP_IOS_PhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E38E191CAA512900F0B4F9 /* LDAP_IOS_PhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDAP_IOS_PhoneUITests.swift; sourceTree = "<group>"; };
 		C3E38E1B1CAA512900F0B4F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E38E971CAA586500F0B4F9 /* LDAP_IOS_Phone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LDAP_IOS_Phone-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3E38E981CAA586600F0B4F9 /* LDAP_Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDAP_Test.m; path = ../../TestLDAP/TestLDAP/LDAP_Test.m; sourceTree = "<group>"; };
+		C3E38E991CAA586600F0B4F9 /* LDAP_Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDAP_Test.h; path = ../../TestLDAP/TestLDAP/LDAP_Test.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +105,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BCCC991CAD2BCE00CA7953 /* libiLdapKit.a in Frameworks */,
+				C3BCC8AB1CABABAD00CA7953 /* libresolv.tbd in Frameworks */,
+				C394F4F61CAA9FC00000D6BC /* libcrypto.a in Frameworks */,
+				C3BCC85C1CABA38F00CA7953 /* liblber.a in Frameworks */,
+				C394F4F71CAA9FC00000D6BC /* libsasl2.a in Frameworks */,
+				C394F4F81CAA9FC00000D6BC /* libssl.a in Frameworks */,
+				C3BCC85E1CABA39500CA7953 /* libldap.a in Frameworks */,
+				C3BCC8601CABA39D00CA7953 /* UIKit.framework in Frameworks */,
+				C3BCC8641CABA3A500CA7953 /* CoreGraphics.framework in Frameworks */,
+				C3BCC8621CABA3A200CA7953 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +135,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3BCCB2F1CAD110200CA7953 /* Depencency */ = {
+			isa = PBXGroup;
+			children = (
+				C3BCCC7E1CAD2A6C00CA7953 /* LdapKit.xcodeproj */,
+			);
+			name = Depencency;
+			sourceTree = "<group>";
+		};
+		C3BCCBF61CAD155600CA7953 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C3BCC8AA1CABABAD00CA7953 /* libresolv.tbd */,
+				C3BCC8631CABA3A500CA7953 /* CoreGraphics.framework */,
+				C3BCC8611CABA3A100CA7953 /* Foundation.framework */,
+				C3BCC85F1CABA39D00CA7953 /* UIKit.framework */,
+				C3BCC85D1CABA39500CA7953 /* libldap.a */,
+				C3BCC85B1CABA38F00CA7953 /* liblber.a */,
+				C394F4F31CAA9FBF0000D6BC /* libcrypto.a */,
+				C394F4F41CAA9FBF0000D6BC /* libsasl2.a */,
+				C394F4F51CAA9FBF0000D6BC /* libssl.a */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C3BCCC7F1CAD2A6C00CA7953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3BCCC861CAD2A6C00CA7953 /* libiLdapKit.a */,
+				C3BCCC881CAD2A6C00CA7953 /* libLdapKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C3E38DED1CAA512900F0B4F9 = {
 			isa = PBXGroup;
 			children = (
+				C3BCCBF61CAD155600CA7953 /* Framework */,
+				C3BCCB2F1CAD110200CA7953 /* Depencency */,
 				C3E38DF81CAA512900F0B4F9 /* LDAP_IOS_Phone */,
 				C3E38E0D1CAA512900F0B4F9 /* LDAP_IOS_PhoneTests */,
 				C3E38E181CAA512900F0B4F9 /* LDAP_IOS_PhoneUITests */,
@@ -97,12 +193,18 @@
 		C3E38DF81CAA512900F0B4F9 /* LDAP_IOS_Phone */ = {
 			isa = PBXGroup;
 			children = (
+				C3AA4D201CB6556F00FA081F /* Main.storyboard */,
+				C3AA4D1C1CB540F400FA081F /* Message.swift */,
+				C3AA4D181CB534FC00FA081F /* User.swift */,
+				C3AA4D1A1CB540DD00FA081F /* MessageController.swift */,
+				C3E38E981CAA586600F0B4F9 /* LDAP_Test.m */,
+				C3E38E991CAA586600F0B4F9 /* LDAP_Test.h */,
 				C3E38DF91CAA512900F0B4F9 /* AppDelegate.swift */,
 				C3E38DFB1CAA512900F0B4F9 /* ViewController.swift */,
-				C3E38DFD1CAA512900F0B4F9 /* Main.storyboard */,
 				C3E38E001CAA512900F0B4F9 /* Assets.xcassets */,
 				C3E38E021CAA512900F0B4F9 /* LaunchScreen.storyboard */,
 				C3E38E051CAA512900F0B4F9 /* Info.plist */,
+				C3E38E971CAA586500F0B4F9 /* LDAP_IOS_Phone-Bridging-Header.h */,
 			);
 			path = LDAP_IOS_Phone;
 			sourceTree = "<group>";
@@ -139,6 +241,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C3BCCC981CAD2BC300CA7953 /* PBXTargetDependency */,
 			);
 			name = LDAP_IOS_Phone;
 			productName = LDAP_IOS_Phone;
@@ -218,6 +321,12 @@
 			mainGroup = C3E38DED1CAA512900F0B4F9;
 			productRefGroup = C3E38DF71CAA512900F0B4F9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C3BCCC7F1CAD2A6C00CA7953 /* Products */;
+					ProjectRef = C3BCCC7E1CAD2A6C00CA7953 /* LdapKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C3E38DF51CAA512900F0B4F9 /* LDAP_IOS_Phone */,
@@ -227,14 +336,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C3BCCC861CAD2A6C00CA7953 /* libiLdapKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libiLdapKit.a;
+			remoteRef = C3BCCC851CAD2A6C00CA7953 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3BCCC881CAD2A6C00CA7953 /* libLdapKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLdapKit.a;
+			remoteRef = C3BCCC871CAD2A6C00CA7953 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C3E38DF41CAA512900F0B4F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3AA4D221CB6556F00FA081F /* Main.storyboard in Resources */,
 				C3E38E041CAA512900F0B4F9 /* LaunchScreen.storyboard in Resources */,
 				C3E38E011CAA512900F0B4F9 /* Assets.xcassets in Resources */,
-				C3E38DFF1CAA512900F0B4F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +387,10 @@
 			files = (
 				C3E38DFC1CAA512900F0B4F9 /* ViewController.swift in Sources */,
 				C3E38DFA1CAA512900F0B4F9 /* AppDelegate.swift in Sources */,
+				C3AA4D1B1CB540DD00FA081F /* MessageController.swift in Sources */,
+				C3AA4D1D1CB540F400FA081F /* Message.swift in Sources */,
+				C3AA4D191CB534FC00FA081F /* User.swift in Sources */,
+				C3E38E9A1CAA586600F0B4F9 /* LDAP_Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +413,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C3BCCC981CAD2BC300CA7953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iLdapKit;
+			targetProxy = C3BCCC971CAD2BC300CA7953 /* PBXContainerItemProxy */;
+		};
 		C3E38E0C1CAA512900F0B4F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C3E38DF51CAA512900F0B4F9 /* LDAP_IOS_Phone */;
@@ -296,10 +431,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C3E38DFD1CAA512900F0B4F9 /* Main.storyboard */ = {
+		C3AA4D201CB6556F00FA081F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C3E38DFE1CAA512900F0B4F9 /* Base */,
+				C3AA4D211CB6556F00FA081F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -401,22 +536,51 @@
 		C3E38E1F1CAA512900F0B4F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					../LdapKit,
+					../iOSPorts/include,
+				);
 				INFOPLIST_FILE = LDAP_IOS_Phone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EEB2.LDAP-IOS-Phone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LDAP_IOS_Phone/LDAP_IOS_Phone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../LdapKit ../iOSPorts/include";
 			};
 			name = Debug;
 		};
 		C3E38E201CAA512900F0B4F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					../LdapKit,
+					../iOSPorts/include,
+				);
 				INFOPLIST_FILE = LDAP_IOS_Phone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "EEB2.LDAP-IOS-Phone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LDAP_IOS_Phone/LDAP_IOS_Phone-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../LdapKit ../iOSPorts/include";
 			};
 			name = Release;
 		};
@@ -487,6 +651,7 @@
 				C3E38E201CAA512900F0B4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3E38E211CAA512900F0B4F9 /* Build configuration list for PBXNativeTarget "LDAP_IOS_PhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +660,7 @@
 				C3E38E231CAA512900F0B4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3E38E241CAA512900F0B4F9 /* Build configuration list for PBXNativeTarget "LDAP_IOS_PhoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +669,7 @@
 				C3E38E261CAA512900F0B4F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

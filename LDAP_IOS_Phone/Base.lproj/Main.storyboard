@@ -69,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="170.5" y="-2880.5"/>
+            <point key="canvasLocation" x="96.5" y="-2978.5"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="gps-cw-m4u">
@@ -102,6 +102,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="JM9-NW-lkp"/>
+                    <navigationItem key="navigationItem" id="bHz-z2-fKV"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="listTableView" destination="1rZ-WG-AIu" id="Mo9-aW-Pvd"/>
@@ -135,6 +136,7 @@
         <scene sceneID="90z-wS-Foc">
             <objects>
                 <tabBarController storyboardIdentifier="Table" id="tmU-sb-OJq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Qlg-Q8-bzn"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="PFf-B8-O9B">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
